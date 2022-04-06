@@ -1,1 +1,2 @@
 Hello this is a temporary file.
+This is a second line.
