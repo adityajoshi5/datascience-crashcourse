@@ -1,0 +1,167 @@
+Creating Tables and Inserting Data
+  Create a table
+
+  Insert data in the table
+
+  Set up Primary Keys and Foreign Keys
+
+
+Data Retrieval
+
+
+  How many unique students are there?
+    SELECT COUNT(DISTINCT UserID) AS UniqueStudents FROM studentlog;
+
+  How many students have attempted at least one quiz?
+    SELECT DISTINCT UserID FROM quizscore;
+
+  Retrieve userids of all students who have attempted 5 or more quizzes 
+    SELECT userid, count(Quiz) FROM quizscore group by userid;
+
+    SELECT UserID, COUNT(Quiz) AS Quizzes FROM quizscore GROUP BY UserID WHERE Quizzes > 5;
+      This will give error
+
+    SELECT UserID, COUNT(Quiz) AS Quizzes FROM quizscore GROUP BY UserID HAVING Quizzes > 5;
+
+  
+  Get the top 10 students who have watched the most videos.
+    SELECT UserID, UnqVideosWatched FROM studentlog ORDER BY UnqVideosWatched DESC LIMIT 10;
+
+  Find students who logged in for the first time on or before 7th September.
+    SELECT UserID FROM studentlog WHERE FirstLoginDate < '2023-09-07';
+
+
+Aggregation & Grouping 
+
+
+  Find the average number of unique articles read per student.
+    SELECT AVG(UnqArticlesRead) AS AvgArticlesRead FROM studentlog;
+
+  Get average quiz score for each student
+    SELECT UserID, AVG(Score) AS AverageScore FROM quizscore GROUP BY UserID;
+
+  Retrieve the number of quizzes attempted and the average quiz score for each student:
+    SELECT UserID, COUNT(DISTINCT Quiz) AS QuizzesAttempted, AVG(Score) AS AverageScore FROM quizscore GROUP BY UserID;    
+
+  Count how many students have attempted all the quizzes.
+    We need to break it down. 
+      1. How many unique quizzes are there?
+        SELECT COUNT(DISTINCT Quiz) from quizscore;
+
+      2. How to find how many unique quizzes a student attempted?
+        SELECT userid, COUNT(DISTINCT Quiz) FROM quizscore GROUP BY userid;
+
+      3. Put them together to get rows of the users who have attempted all the quizzes.
+        SELECT UserID, COUNT(DISTINCT Quiz) FROM quizscore GROUP BY UserID HAVING COUNT(DISTINCT Quiz) = (SELECT COUNT(DISTINCT Quiz) FROM quizscore);
+
+      4. Use count(*) to count the number of rows
+        SELECT COUNT(*) FROM (SELECT UserID FROM quizscore GROUP BY UserID HAVING COUNT(DISTINCT Quiz) = (SELECT COUNT(DISTINCT Quiz) FROM quizscore) AS AllQuizzes;
+
+
+
+Joining Tables 
+
+  Retrieve students course grade and average quiz score.
+    SELECT c.UserID, c.CourseGrade, AVG(q.Score) AS AverageScore FROM coursegrade c LEFT JOIN quizscore q ON c.UserID = q.UserID GROUP BY c.UserID, c.CourseGrade ORDER BY CourseGrade DESC;
+
+  Follow up:
+    Are there any students who didn't attempt any quizzes? What are their course grades?
+    Do you think students' grades in the course are related with their score in the system?
+      SELECT c.CourseGrade, AVG(q.Score) AS AverageQuizScore FROM coursegrade c LEFT JOIN quizscore q ON c.UserID = q.UserID GROUP BY c.CourseGrade ORDER BY c.CourseGrade;
+  
+
+
+Data Analysis using SQL
+  Are students who attempt more quizzes more likely to pass?
+    SELECT s.QuizAttempted, 
+         COUNT(*) AS StudentCount, 
+         SUM(CASE WHEN c.FinalResult = 'Pass' THEN 1 ELSE 0 END) AS Passed,
+         SUM(CASE WHEN c.FinalResult = 'Fail' THEN 1 ELSE 0 END) AS Failed,
+         ROUND(100.0 * SUM(CASE WHEN c.FinalResult = 'Pass' THEN 1 ELSE 0 END) / COUNT(*), 2) AS PassRate
+    FROM studentlog s
+    JOIN coursegrade c ON s.UserID = c.UserID
+    GROUP BY s.QuizAttempted
+    ORDER BY s.QuizAttempted DESC;
+
+  Does more engagement in the system lead to passing the course?
+    SELECT c.FinalResult,
+           AVG(s.QuizAttempted) AS AvgQuizzesAttempted,
+           AVG(s.UnqArticlesRead) AS AvgArticlesRead,
+           AVG(s.UnqVideosWatched) AS AvgVideosWatched
+    FROM studentlog s
+    JOIN coursegrade c ON s.UserID = c.UserID
+    GROUP BY c.FinalResult;
+
+
+-----------------------------------------------------  
+
+Calculate the Engagement Level Based on Activity Metrics
+
+  Let us define what engagement means.
+  If a student has attempted more than 5 quizzes, watched more than 10 videos, and used the system on more than 10 different days, we call them Highly Engaged
+  If 2-4 quizzes, 5-10 videos, 5-10 days, we call them Moderately Engaged.
+  Otherwise they are Not Engaged.
+
+     SELECT UserID,
+           CASE 
+               WHEN QuizAttempted >= 5 AND UnqVideosWatched >= 5 AND UnqDay >= 10 THEN 'Highly Engaged'
+               WHEN QuizAttempted BETWEEN 2 AND 4 OR UnqVideosWatched BETWEEN 5 AND 9 OR UnqDay BETWEEN 5 AND 9 THEN 'Moderately Engaged'
+               ELSE 'Not Engaged'
+           END AS EngagementLevel
+    FROM studentlog;
+
+Count the Number of Students for Each Engagement Level
+    SELECT 
+           CASE 
+               WHEN QuizAttempted >= 5 AND UnqVideosWatched >= 5 AND UnqDay >= 10 THEN 'Highly Engaged'
+               WHEN QuizAttempted BETWEEN 2 AND 4 OR UnqVideosWatched BETWEEN 5 AND 9 OR UnqDay BETWEEN 5 AND 9 THEN 'Moderately Engaged'
+               ELSE 'Not Engaged'
+           END AS EngagementLevel,
+           COUNT(*) AS StudentCount
+    FROM studentlog
+    GROUP BY EngagementLevel;
+
+Count the Number of Passed and Failed Students  
+    SELECT 
+           CASE 
+               WHEN QuizAttempted >= 5 AND UnqVideosWatched >= 5 AND UnqDay >= 10 THEN 'Highly Engaged'
+               WHEN QuizAttempted BETWEEN 1 AND 4 OR UnqVideosWatched BETWEEN 1 AND 4 OR UnqDay BETWEEN 5 AND 9 THEN 'Moderately Engaged'
+               ELSE 'Low Engagement'
+           END AS EngagementLevel,
+           SUM(CASE WHEN c.FinalResult = 'Pass' THEN 1 ELSE 0 END) AS Passed,
+           SUM(CASE WHEN c.FinalResult = 'Fail' THEN 1 ELSE 0 END) AS Failed
+    FROM studentlog s
+    JOIN coursegrade c ON s.UserID = c.UserID
+    GROUP BY EngagementLevel;  
+
+Calculate the Pass Rate for Each Engagement Level  
+    SELECT 
+           CASE 
+               WHEN QuizAttempted >= 5 AND UnqVideosWatched >= 5 AND UnqDay >= 10 THEN 'Highly Engaged'
+               WHEN QuizAttempted BETWEEN 1 AND 4 OR UnqVideosWatched BETWEEN 1 AND 4 OR UnqDay BETWEEN 5 AND 9 THEN 'Moderately Engaged'
+               ELSE 'Low Engagement'
+           END AS EngagementLevel,
+           COUNT(*) AS StudentCount,
+           SUM(CASE WHEN c.FinalResult = 'Pass' THEN 1 ELSE 0 END) AS Passed,
+           SUM(CASE WHEN c.FinalResult = 'Fail' THEN 1 ELSE 0 END) AS Failed,
+           ROUND(100.0 * SUM(CASE WHEN c.FinalResult = 'Pass' THEN 1 ELSE 0 END) / COUNT(*), 2) AS PassRate
+    FROM studentlog s
+    JOIN coursegrade c ON s.UserID = c.UserID
+    GROUP BY EngagementLevel;
+
+
+    SELECT 
+      CASE 
+          WHEN s.QuizAttempted >= 5 AND s.UnqVideosWatched >= 5 AND s.UnqDay >= 10 THEN 'Highly Engaged'
+          WHEN s.QuizAttempted BETWEEN 1 AND 4 OR s.UnqVideosWatched BETWEEN 1 AND 4 OR s.UnqDay BETWEEN 5 AND 9 THEN 'Moderately Engaged'
+          ELSE 'Low Engagement'
+      END AS EngagementLevel,
+      COUNT(*) AS StudentCount,
+      SUM(CASE WHEN c.FinalResult = 'Pass' THEN 1 ELSE 0 END) AS Passed,
+      SUM(CASE WHEN c.FinalResult = 'Fail' THEN 1 ELSE 0 END) AS Failed,
+      ROUND(100.0 * SUM(CASE WHEN c.FinalResult = 'Pass' THEN 1 ELSE 0 END) / COUNT(*), 2) AS PassRate
+    FROM studentlog s
+    JOIN coursegrade c ON s.UserID = c.UserID
+    GROUP BY EngagementLevel
+    ORDER BY PassRate DESC;
+
