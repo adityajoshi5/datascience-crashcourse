@@ -1,0 +1,1001 @@
+employee_id,location,transport_mode,distance_km,reimbursement_eur
+1014,Rotterdam,public,22.27,4.23
+1009,Den Haag,public,14.19,2.7
+1004,Utrecht,car,9.52,2.19
+1034,Den Haag,public,22.95,4.36
+1022,Utrecht,public,16.07,3.05
+1037,Utrecht,public,22.09,4.2
+1034,Den Haag,public,23.25,4.42
+1026,Amsterdam,car,8.41,1.93
+1015,Rotterdam,public,20.56,3.91
+1014,Rotterdam,public,22.56,4.29
+1033,Utrecht,public,27.4,5.21
+1030,Den Haag,public,20.03,3.81
+1037,Utrecht,public,21.89,4.16
+1025,Den Haag,public,6.14,2.0
+1045,Amsterdam,car,10.2,2.35
+1038,Rotterdam,public,16.32,3.1
+1002,Den Haag,public,24.21,4.6
+1016,Den Haag,car,10.72,2.47
+1016,Den Haag,car,10.72,2.47
+1046,Utrecht,public,16.34,3.1
+1043,Rotterdam,car,23.62,5.43
+1023,Den Haag,public,36.73,6.98
+1048,Den Haag,public,30.06,5.71
+1045,Amsterdam,car,4.06,0.93
+1041,Utrecht,bike,13.9,0.83
+1003,Rotterdam,public,9.3,2.0
+1022,Utrecht,public,12.06,2.29
+1042,Rotterdam,public,21.01,3.99
+1039,Den Haag,public,27.33,5.19
+1037,Utrecht,public,22.03,4.19
+1026,Amsterdam,car,8.33,1.92
+1020,Utrecht,bike,3.87,0.23
+1022,Utrecht,public,15.99,3.04
+1001,Rotterdam,public,11.95,2.27
+1048,Den Haag,public,29.62,5.63
+1026,Amsterdam,car,8.3,1.91
+1005,Amsterdam,bike,5.09,0.31
+1045,Amsterdam,car,4.09,0.94
+1023,Den Haag,public,15.9,3.02
+1026,Amsterdam,car,8.23,1.89
+1016,Den Haag,car,11.99,2.76
+1023,Den Haag,public,16.05,3.05
+1009,Den Haag,bike,14.5,0.87
+1042,Rotterdam,public,21.3,4.05
+1026,Amsterdam,car,8.3,1.91
+1005,Amsterdam,bike,4.85,0.29
+1009,Den Haag,public,14.53,2.76
+1011,Den Haag,public,16.06,3.05
+1033,Utrecht,public,27.28,5.18
+1018,Utrecht,public,16.11,3.06
+1002,Den Haag,public,24.27,4.61
+1037,Utrecht,bike,22.16,1.33
+1008,Den Haag,car,13.99,3.22
+1013,Utrecht,car,23.7,5.45
+1035,Utrecht,public,22.77,4.33
+1010,Rotterdam,bike,1.45,0.09
+1038,Rotterdam,public,16.57,3.15
+1041,Utrecht,bike,13.67,0.82
+1018,Utrecht,public,25.11,4.77
+1005,Amsterdam,bike,5.2,0.31
+1025,Den Haag,public,6.27,2.0
+1002,Den Haag,public,24.36,4.63
+1027,Utrecht,car,18.44,4.24
+1047,Den Haag,public,25.96,4.93
+1032,Utrecht,bike,10.79,0.65
+1031,Amsterdam,car,12.16,2.8
+1008,Den Haag,car,14.08,3.24
+1038,Rotterdam,public,16.43,3.12
+1039,Den Haag,public,27.92,5.3
+1030,Den Haag,public,19.99,3.8
+1048,Den Haag,bike,29.68,1.78
+1011,Den Haag,public,16.09,3.06
+1017,Amsterdam,car,8.97,2.06
+1025,Den Haag,public,5.94,2.0
+1025,Den Haag,public,6.29,2.0
+1038,Rotterdam,public,16.52,3.14
+1047,Den Haag,car,26.39,6.07
+1040,Den Haag,public,20.88,3.97
+1003,Rotterdam,public,15.38,2.92
+1048,Den Haag,public,29.54,5.61
+1036,Utrecht,car,29.33,6.75
+1047,Den Haag,public,25.08,4.77
+1020,Utrecht,bike,3.94,0.24
+1047,Den Haag,public,26.11,4.96
+1006,Amsterdam,bike,2.8,0.17
+1048,Den Haag,public,29.83,5.67
+1005,Amsterdam,bike,5.25,0.32
+1042,Rotterdam,public,21.28,4.04
+1017,Amsterdam,car,0.95,0.22
+1030,Den Haag,public,20.11,3.82
+1023,Den Haag,public,22.25,4.23
+1007,Utrecht,public,15.6,2.96
+1034,Den Haag,public,25.31,4.81
+1035,Utrecht,car,22.69,5.22
+1017,Amsterdam,car,9.27,2.13
+1037,Utrecht,public,53.06,10.08
+1001,Rotterdam,bike,11.24,0.67
+1012,Den Haag,bike,7.28,0.44
+1029,Utrecht,public,14.93,2.84
+1002,Den Haag,public,24.27,4.61
+1026,Amsterdam,car,8.12,1.87
+1031,Amsterdam,car,12.6,2.9
+1011,Den Haag,public,16.17,3.07
+1044,Den Haag,public,10.12,1.92
+1002,Den Haag,public,24.34,4.62
+1043,Rotterdam,public,23.85,4.53
+1026,Amsterdam,car,8.16,1.88
+1041,Utrecht,bike,13.88,0.83
+1048,Den Haag,public,30.04,5.71
+1031,Amsterdam,car,12.54,2.88
+1031,Amsterdam,car,12.35,2.84
+1007,Utrecht,public,15.42,2.93
+1018,Utrecht,public,16.11,3.06
+1042,Rotterdam,public,21.2,4.03
+1031,Amsterdam,car,12.3,2.83
+1007,Utrecht,public,15.4,2.93
+1041,Utrecht,bike,13.48,0.81
+1011,Den Haag,public,16.53,3.14
+1032,Utrecht,bike,10.81,0.65
+1020,Utrecht,car,3.73,0.86
+1006,Amsterdam,bike,2.91,0.17
+1048,Den Haag,public,29.65,5.63
+1015,Rotterdam,public,20.95,3.98
+1004,Utrecht,car,9.49,2.18
+1003,Rotterdam,public,15.21,2.89
+1043,Rotterdam,public,24.09,4.58
+1036,Utrecht,public,29.1,5.53
+1018,Utrecht,bike,25.39,1.52
+1018,Utrecht,public,15.79,3.0
+1044,Den Haag,public,12.51,2.38
+1025,Den Haag,public,6.35,2.0
+1035,Utrecht,public,22.86,4.34
+1013,Utrecht,public,23.38,4.44
+1034,Den Haag,public,24.84,4.72
+1002,Den Haag,public,24.11,4.58
+1017,Amsterdam,car,1.29,0.3
+1004,Utrecht,car,9.31,2.14
+1016,Den Haag,car,11.78,2.71
+1008,Den Haag,car,25.21,5.8
+1008,Den Haag,public,14.07,2.67
+1027,Utrecht,car,11.28,2.59
+1048,Den Haag,public,30.1,5.72
+1031,Amsterdam,car,12.56,2.89
+1012,Den Haag,bike,7.49,0.45
+1018,Utrecht,public,15.73,2.99
+1014,Rotterdam,public,22.35,4.25
+1041,Utrecht,bike,13.82,0.83
+1009,Den Haag,public,14.04,2.67
+1028,Utrecht,public,23.91,4.54
+1036,Utrecht,public,29.12,5.53
+1016,Den Haag,car,10.41,2.39
+1029,Utrecht,public,30.14,5.73
+1006,Amsterdam,bike,2.68,0.16
+1047,Den Haag,public,25.48,4.84
+1023,Den Haag,public,21.96,4.17
+1003,Rotterdam,public,9.59,2.0
+1043,Rotterdam,public,24.08,4.58
+1018,Utrecht,public,25.03,4.76
+1039,Den Haag,public,27.88,5.3
+1015,Rotterdam,public,46.39,8.81
+1004,Utrecht,car,9.47,2.18
+1017,Amsterdam,car,1.04,0.24
+1017,Amsterdam,car,9.06,2.08
+1039,Den Haag,public,27.53,5.23
+1019,Amsterdam,public,11.06,2.1
+1036,Utrecht,public,48.52,9.22
+1027,Utrecht,car,18.16,4.18
+1039,Den Haag,public,27.71,5.26
+1012,Den Haag,public,3.11,2.0
+1038,Rotterdam,public,16.61,3.16
+1010,Rotterdam,bike,1.79,0.11
+1042,Rotterdam,public,11.1,2.11
+1037,Utrecht,public,22.11,4.2
+1005,Amsterdam,bike,4.84,0.29
+1004,Utrecht,car,9.15,2.1
+1039,Den Haag,car,27.37,6.3
+1029,Utrecht,public,15.27,2.9
+1046,Utrecht,car,15.83,3.64
+1033,Utrecht,public,27.54,5.23
+1005,Amsterdam,bike,4.69,0.28
+1033,Utrecht,public,27.66,5.26
+1027,Utrecht,car,11.4,2.62
+1048,Den Haag,public,30.12,5.72
+1011,Den Haag,public,16.14,3.07
+1030,Den Haag,public,20.13,3.82
+1030,Den Haag,public,19.66,3.74
+1014,Rotterdam,public,22.63,4.3
+1037,Utrecht,public,21.89,4.16
+1033,Utrecht,public,27.74,5.27
+1016,Den Haag,car,10.32,2.37
+1031,Amsterdam,car,12.72,2.93
+1045,Amsterdam,car,3.61,0.83
+1028,Utrecht,public,23.96,4.55
+1013,Utrecht,public,23.52,4.47
+1048,Den Haag,car,30.01,6.9
+1004,Utrecht,car,9.7,2.23
+1021,Rotterdam,public,16.23,3.08
+1014,Rotterdam,public,22.73,4.32
+1001,Rotterdam,bike,12.17,0.73
+1045,Amsterdam,car,3.8,0.87
+1026,Amsterdam,car,8.29,1.91
+1010,Rotterdam,bike,1.31,0.08
+1007,Utrecht,public,15.43,2.93
+1047,Den Haag,public,26.07,4.95
+1026,Amsterdam,car,8.69,2.0
+1026,Amsterdam,car,8.53,1.96
+1038,Rotterdam,public,16.36,3.11
+1020,Utrecht,bike,3.78,0.23
+1012,Den Haag,bike,7.38,0.44
+1014,Rotterdam,public,22.41,4.26
+1005,Amsterdam,bike,4.74,0.28
+1018,Utrecht,public,24.99,4.75
+1037,Utrecht,public,22.06,4.19
+1038,Rotterdam,public,16.48,3.13
+1024,Den Haag,public,19.99,3.8
+1005,Amsterdam,car,5.11,1.18
+1010,Rotterdam,bike,1.27,0.08
+1008,Den Haag,bike,14.25,0.85
+1023,Den Haag,public,22.1,4.2
+1023,Den Haag,public,21.86,4.15
+1042,Rotterdam,public,49.77,9.46
+1040,Den Haag,public,20.5,3.9
+1005,Amsterdam,bike,4.8,0.29
+1009,Den Haag,public,14.55,2.76
+1014,Rotterdam,public,22.34,4.24
+1041,Utrecht,bike,13.65,0.82
+1012,Den Haag,car,3.23,0.74
+1022,Utrecht,public,15.8,3.0
+1044,Den Haag,public,10.41,1.98
+1028,Utrecht,public,24.34,4.62
+1022,Utrecht,public,11.94,2.27
+1035,Utrecht,public,22.96,4.36
+1034,Den Haag,public,23.23,4.41
+1028,Utrecht,public,24.33,4.62
+1017,Amsterdam,car,8.92,2.05
+1001,Rotterdam,bike,11.32,0.68
+1020,Utrecht,bike,4.04,0.24
+1005,Amsterdam,bike,4.78,0.29
+1002,Den Haag,public,24.67,4.69
+1032,Utrecht,bike,10.87,0.65
+1012,Den Haag,public,3.56,2.0
+1022,Utrecht,public,12.13,2.3
+1023,Den Haag,public,16.07,3.05
+1023,Den Haag,public,16.04,3.05
+1023,Den Haag,public,22.21,4.22
+1029,Utrecht,public,17.48,3.32
+1014,Rotterdam,public,22.57,4.29
+1017,Amsterdam,car,9.04,2.08
+1043,Rotterdam,public,24.19,4.6
+1043,Rotterdam,public,23.89,4.54
+1024,Den Haag,public,19.79,3.76
+1038,Rotterdam,public,16.11,3.06
+1018,Utrecht,public,25.37,4.82
+1036,Utrecht,public,29.48,5.6
+1011,Den Haag,public,16.24,3.09
+1046,Utrecht,public,19.38,3.68
+1011,Den Haag,public,16.12,3.06
+1038,Rotterdam,public,16.56,3.15
+1032,Utrecht,bike,10.97,0.66
+1036,Utrecht,public,29.45,5.6
+1026,Amsterdam,car,8.22,1.89
+1035,Utrecht,public,22.98,4.37
+1040,Den Haag,public,54.04,10.27
+1044,Den Haag,public,10.53,2.0
+1032,Utrecht,bike,10.69,0.64
+1047,Den Haag,public,25.2,4.79
+1025,Den Haag,public,6.19,2.0
+1004,Utrecht,car,9.49,2.18
+1023,Den Haag,public,15.99,3.04
+1022,Utrecht,public,15.83,3.01
+1022,Utrecht,public,12.08,2.3
+1019,Amsterdam,public,6.02,2.0
+1024,Den Haag,public,19.73,3.75
+1031,Amsterdam,car,25.02,5.75
+1037,Utrecht,public,22.14,4.21
+1033,Utrecht,bike,27.32,1.64
+1039,Den Haag,public,27.88,5.3
+1028,Utrecht,public,24.03,4.57
+1037,Utrecht,public,22.17,4.21
+1025,Den Haag,public,5.96,2.0
+1007,Utrecht,public,15.28,2.9
+1029,Utrecht,public,17.28,3.28
+1004,Utrecht,car,9.24,2.13
+1020,Utrecht,bike,4.04,0.24
+1034,Den Haag,public,25.34,4.81
+1028,Utrecht,public,24.33,4.62
+1043,Rotterdam,bike,23.77,1.43
+1036,Utrecht,public,29.4,5.59
+1032,Utrecht,bike,10.93,0.66
+1044,Den Haag,public,12.55,2.38
+1016,Den Haag,car,10.44,2.4
+1024,Den Haag,public,19.85,3.77
+1017,Amsterdam,car,9.01,2.07
+1014,Rotterdam,public,22.75,4.32
+1041,Utrecht,bike,13.48,0.81
+1048,Den Haag,public,30.05,5.71
+1023,Den Haag,public,22.03,4.19
+1014,Rotterdam,public,22.63,4.3
+1015,Rotterdam,public,20.84,3.96
+1005,Amsterdam,bike,4.82,0.29
+1017,Amsterdam,car,8.91,2.05
+1017,Amsterdam,car,1.32,0.3
+1007,Utrecht,public,15.39,2.92
+1047,Den Haag,public,26.35,5.01
+1039,Den Haag,public,27.83,5.29
+1033,Utrecht,public,27.74,5.27
+1041,Utrecht,bike,13.49,0.81
+1047,Den Haag,public,26.41,5.02
+1022,Utrecht,public,15.94,3.03
+1021,Rotterdam,car,16.23,3.73
+1043,Rotterdam,public,52.63,10.0
+1041,Utrecht,public,13.82,2.63
+1002,Den Haag,public,24.3,4.62
+1017,Amsterdam,car,1.09,0.25
+1042,Rotterdam,public,10.96,2.08
+1008,Den Haag,car,14.04,3.23
+1027,Utrecht,car,11.06,2.54
+1007,Utrecht,public,15.66,2.98
+1017,Amsterdam,car,9.2,2.12
+1033,Utrecht,bike,27.71,1.66
+1019,Amsterdam,public,11.45,2.18
+1007,Utrecht,public,15.35,2.92
+1033,Utrecht,public,27.31,5.19
+1013,Utrecht,public,23.58,4.48
+1042,Rotterdam,bike,21.0,1.26
+1032,Utrecht,bike,10.87,0.65
+1004,Utrecht,car,9.54,2.19
+1002,Den Haag,public,24.36,4.63
+1025,Den Haag,public,6.24,2.0
+1041,Utrecht,car,13.38,3.08
+1011,Den Haag,public,16.16,3.07
+1023,Den Haag,public,15.76,2.99
+1048,Den Haag,public,29.73,5.65
+1009,Den Haag,public,14.57,2.77
+1031,Amsterdam,car,12.13,2.79
+1036,Utrecht,public,29.21,5.55
+1044,Den Haag,public,10.63,2.02
+1044,Den Haag,public,12.57,2.39
+1015,Rotterdam,bike,20.61,1.24
+1030,Den Haag,public,20.02,3.8
+1032,Utrecht,bike,10.67,0.64
+1031,Amsterdam,car,12.22,2.81
+1043,Rotterdam,public,24.03,4.57
+1043,Rotterdam,public,23.92,4.54
+1002,Den Haag,public,24.39,4.63
+1044,Den Haag,public,10.33,1.96
+1023,Den Haag,public,15.93,3.03
+1045,Amsterdam,car,3.78,0.87
+1002,Den Haag,car,24.45,5.62
+1004,Utrecht,car,9.51,2.19
+1005,Amsterdam,public,4.91,2.0
+1014,Rotterdam,public,22.39,4.25
+1013,Utrecht,public,23.6,4.48
+1045,Amsterdam,car,10.03,2.31
+1033,Utrecht,car,27.58,6.34
+1001,Rotterdam,bike,11.54,0.69
+1012,Den Haag,car,3.36,0.77
+1004,Utrecht,car,9.38,2.16
+1025,Den Haag,public,6.11,2.0
+1023,Den Haag,public,22.04,4.19
+1006,Amsterdam,bike,3.07,0.18
+1031,Amsterdam,car,12.6,2.9
+1027,Utrecht,car,18.25,4.2
+1046,Utrecht,public,19.31,3.67
+1012,Den Haag,bike,7.52,0.45
+1031,Amsterdam,car,12.82,2.95
+1004,Utrecht,car,9.52,2.19
+1016,Den Haag,car,10.49,2.41
+1010,Rotterdam,bike,1.41,0.08
+1018,Utrecht,public,15.83,3.01
+1017,Amsterdam,car,8.81,2.03
+1027,Utrecht,car,11.28,2.59
+1048,Den Haag,public,30.05,5.71
+1005,Amsterdam,bike,5.15,0.31
+1021,Rotterdam,public,16.45,3.13
+1031,Amsterdam,car,12.64,2.91
+1011,Den Haag,public,16.05,3.05
+1020,Utrecht,public,3.94,2.0
+1014,Rotterdam,public,22.5,4.28
+1030,Den Haag,public,19.68,3.74
+1040,Den Haag,public,22.84,4.34
+1046,Utrecht,public,16.03,3.05
+1004,Utrecht,car,9.2,2.12
+1024,Den Haag,public,19.75,3.75
+1032,Utrecht,bike,11.1,0.67
+1038,Rotterdam,public,16.41,3.12
+1036,Utrecht,public,29.12,5.53
+1048,Den Haag,car,29.68,6.83
+1015,Rotterdam,public,20.45,3.89
+1029,Utrecht,public,15.3,2.91
+1016,Den Haag,bike,10.26,0.62
+1003,Rotterdam,public,14.99,2.85
+1043,Rotterdam,public,24.17,4.59
+1022,Utrecht,public,12.31,2.34
+1014,Rotterdam,public,22.65,4.3
+1044,Den Haag,public,10.24,1.95
+1021,Rotterdam,public,28.28,5.37
+1047,Den Haag,public,26.35,5.01
+1006,Amsterdam,bike,2.76,0.17
+1025,Den Haag,public,6.25,2.0
+1008,Den Haag,car,14.33,3.3
+1040,Den Haag,public,22.53,4.28
+1009,Den Haag,public,14.37,2.73
+1014,Rotterdam,public,22.44,4.26
+1013,Utrecht,public,23.5,4.46
+1031,Amsterdam,car,12.56,2.89
+1037,Utrecht,public,21.9,4.16
+1025,Den Haag,public,6.36,2.0
+1006,Amsterdam,bike,2.62,0.16
+1007,Utrecht,public,15.75,2.99
+1023,Den Haag,public,38.9,7.39
+1033,Utrecht,public,27.37,5.2
+1033,Utrecht,public,27.83,5.29
+1028,Utrecht,public,24.08,4.58
+1029,Utrecht,public,15.41,2.93
+1046,Utrecht,public,16.1,3.06
+1005,Amsterdam,bike,5.1,0.31
+1037,Utrecht,public,22.45,4.27
+1019,Amsterdam,public,5.76,2.0
+1041,Utrecht,car,13.74,3.16
+1041,Utrecht,bike,13.64,0.82
+1023,Den Haag,public,22.02,4.18
+1044,Den Haag,public,12.49,2.37
+1042,Rotterdam,public,43.49,8.26
+1039,Den Haag,public,27.83,5.29
+1026,Amsterdam,car,8.11,1.87
+1023,Den Haag,public,15.59,2.96
+1023,Den Haag,public,21.96,4.17
+1042,Rotterdam,public,21.48,4.08
+1031,Amsterdam,car,12.42,2.86
+1040,Den Haag,public,22.4,4.26
+1045,Amsterdam,car,9.93,2.28
+1044,Den Haag,bike,10.21,0.61
+1029,Utrecht,public,15.07,2.86
+1039,Den Haag,public,27.79,5.28
+1026,Amsterdam,car,8.27,1.9
+1037,Utrecht,public,22.28,4.23
+1029,Utrecht,public,15.12,2.87
+1004,Utrecht,car,9.46,2.18
+1011,Den Haag,public,16.13,3.06
+1038,Rotterdam,public,16.21,3.08
+1007,Utrecht,public,15.69,2.98
+1048,Den Haag,public,29.64,5.63
+1017,Amsterdam,public,8.9,2.0
+1006,Amsterdam,bike,2.6,0.16
+1006,Amsterdam,bike,2.81,0.17
+1034,Den Haag,public,25.23,4.79
+1021,Rotterdam,public,16.68,3.17
+1009,Den Haag,public,14.37,2.73
+1029,Utrecht,car,17.58,4.04
+1010,Rotterdam,bike,1.51,0.09
+1026,Amsterdam,car,8.63,1.98
+1011,Den Haag,public,16.03,3.05
+1004,Utrecht,car,9.35,2.15
+1044,Den Haag,public,10.36,1.97
+1030,Den Haag,public,19.8,3.76
+1017,Amsterdam,car,9.19,2.11
+1041,Utrecht,bike,13.76,0.83
+1018,Utrecht,public,25.43,4.83
+1026,Amsterdam,car,15.06,3.46
+1002,Den Haag,car,24.66,5.67
+1024,Den Haag,public,19.52,3.71
+1007,Utrecht,public,15.71,2.98
+1010,Rotterdam,bike,1.26,0.08
+1002,Den Haag,public,24.36,4.63
+1037,Utrecht,car,22.36,5.14
+1032,Utrecht,bike,10.76,0.65
+1026,Amsterdam,car,8.41,1.93
+1017,Amsterdam,bike,8.7,0.52
+1008,Den Haag,car,14.5,3.33
+1040,Den Haag,public,20.59,3.91
+1045,Amsterdam,car,10.2,2.35
+1026,Amsterdam,bike,8.33,0.5
+1024,Den Haag,public,19.78,3.76
+1008,Den Haag,car,14.36,3.3
+1022,Utrecht,public,15.68,2.98
+1018,Utrecht,public,15.59,2.96
+1009,Den Haag,public,14.25,2.71
+1023,Den Haag,public,15.77,3.0
+1040,Den Haag,public,41.25,7.84
+1048,Den Haag,car,29.62,6.81
+1045,Amsterdam,public,10.16,1.93
+1036,Utrecht,public,29.2,5.55
+1007,Utrecht,public,15.58,2.96
+1026,Amsterdam,public,8.31,2.0
+1029,Utrecht,public,17.25,3.28
+1041,Utrecht,bike,13.91,0.83
+1037,Utrecht,public,22.3,4.24
+1024,Den Haag,car,19.7,4.53
+1045,Amsterdam,car,10.05,2.31
+1001,Rotterdam,bike,12.34,0.74
+1030,Den Haag,public,19.82,3.77
+1041,Utrecht,bike,13.38,0.8
+1048,Den Haag,bike,30.12,1.81
+1002,Den Haag,public,24.66,4.69
+1013,Utrecht,car,23.43,5.39
+1007,Utrecht,public,15.72,2.99
+1018,Utrecht,public,15.94,3.03
+1037,Utrecht,public,22.39,4.25
+1030,Den Haag,public,20.13,3.82
+1024,Den Haag,public,19.93,3.79
+1029,Utrecht,public,15.4,2.93
+1048,Den Haag,public,30.13,5.72
+1032,Utrecht,bike,11.15,0.67
+1044,Den Haag,public,12.07,2.29
+1041,Utrecht,bike,13.63,0.82
+1010,Rotterdam,bike,1.37,0.08
+1042,Rotterdam,car,21.07,4.85
+1028,Utrecht,public,24.08,4.58
+1040,Den Haag,public,20.51,3.9
+1047,Den Haag,bike,25.33,1.52
+1010,Rotterdam,bike,1.5,0.09
+1040,Den Haag,public,20.65,3.92
+1027,Utrecht,car,18.61,4.28
+1023,Den Haag,car,15.57,3.58
+1033,Utrecht,public,27.67,5.26
+1002,Den Haag,public,24.66,4.69
+1036,Utrecht,public,29.4,5.59
+1028,Utrecht,public,24.29,4.62
+1045,Amsterdam,car,9.89,2.27
+1019,Amsterdam,public,5.67,2.0
+1028,Utrecht,public,24.07,4.57
+1029,Utrecht,public,17.72,3.37
+1009,Den Haag,public,14.37,2.73
+1043,Rotterdam,public,24.09,4.58
+1044,Den Haag,public,10.31,1.96
+1044,Den Haag,car,10.21,2.35
+1015,Rotterdam,public,20.55,3.9
+1030,Den Haag,public,19.76,3.75
+1014,Rotterdam,public,22.73,4.32
+1035,Utrecht,public,22.82,4.34
+1024,Den Haag,public,19.84,3.77
+1035,Utrecht,bike,22.72,1.36
+1005,Amsterdam,bike,5.08,0.3
+1023,Den Haag,public,15.59,2.96
+1028,Utrecht,public,24.2,4.6
+1025,Den Haag,bike,5.86,0.35
+1008,Den Haag,car,14.03,3.23
+1016,Den Haag,car,11.63,2.67
+1013,Utrecht,public,23.49,4.46
+1048,Den Haag,public,29.99,5.7
+1040,Den Haag,public,20.61,3.92
+1010,Rotterdam,bike,1.67,0.1
+1011,Den Haag,public,16.33,3.1
+1013,Utrecht,public,23.26,4.42
+1012,Den Haag,bike,3.62,0.22
+1036,Utrecht,public,29.6,5.62
+1028,Utrecht,public,24.23,4.6
+1038,Rotterdam,public,31.87,6.06
+1034,Den Haag,public,50.85,9.66
+1016,Den Haag,car,10.52,2.42
+1027,Utrecht,car,18.5,4.25
+1001,Rotterdam,car,11.85,2.73
+1016,Den Haag,car,10.58,2.43
+1047,Den Haag,public,26.17,4.97
+1018,Utrecht,car,15.97,3.67
+1029,Utrecht,public,17.68,3.36
+1001,Rotterdam,bike,11.12,0.67
+1028,Utrecht,public,24.22,4.6
+1043,Rotterdam,bike,23.92,1.44
+1047,Den Haag,public,25.54,4.85
+1029,Utrecht,public,17.69,3.36
+1047,Den Haag,public,26.34,5.0
+1019,Amsterdam,public,5.91,2.0
+1041,Utrecht,bike,13.7,0.82
+1027,Utrecht,car,18.61,4.28
+1007,Utrecht,public,15.73,2.99
+1033,Utrecht,public,27.31,5.19
+1015,Rotterdam,public,20.79,3.95
+1048,Den Haag,car,29.59,6.81
+1043,Rotterdam,car,23.9,5.5
+1013,Utrecht,car,23.62,5.43
+1018,Utrecht,public,25.12,4.77
+1044,Den Haag,public,12.54,2.38
+1030,Den Haag,bike,38.32,2.3
+1007,Utrecht,car,15.79,3.63
+1034,Den Haag,public,24.81,4.71
+1038,Rotterdam,public,16.45,3.13
+1045,Amsterdam,car,9.99,2.3
+1042,Rotterdam,car,11.08,2.55
+1021,Rotterdam,car,16.71,3.84
+1038,Rotterdam,public,16.55,3.14
+1027,Utrecht,car,18.46,4.25
+1041,Utrecht,bike,13.9,0.83
+1044,Den Haag,public,12.51,2.38
+1007,Utrecht,public,15.57,2.96
+1011,Den Haag,public,16.38,3.11
+1008,Den Haag,car,13.96,3.21
+1023,Den Haag,public,16.04,3.05
+1015,Rotterdam,public,20.59,3.91
+1037,Utrecht,public,22.17,4.21
+1013,Utrecht,car,23.65,5.44
+1026,Amsterdam,car,8.31,1.91
+1038,Rotterdam,public,16.61,3.16
+1007,Utrecht,public,15.83,3.01
+1043,Rotterdam,public,24.2,4.6
+1043,Rotterdam,public,23.72,4.51
+1009,Den Haag,public,14.19,2.7
+1034,Den Haag,public,25.29,4.81
+1014,Rotterdam,public,22.32,4.24
+1045,Amsterdam,car,10.1,2.32
+1017,Amsterdam,car,1.23,0.28
+1015,Rotterdam,public,20.94,3.98
+1036,Utrecht,public,29.46,5.6
+1042,Rotterdam,public,21.19,4.03
+1039,Den Haag,public,27.36,5.2
+1001,Rotterdam,bike,11.4,0.68
+1020,Utrecht,bike,3.92,0.24
+1005,Amsterdam,bike,5.02,0.3
+1028,Utrecht,public,24.4,4.64
+1014,Rotterdam,public,22.56,4.29
+1038,Rotterdam,public,16.26,3.09
+1011,Den Haag,bike,16.09,0.97
+1010,Rotterdam,bike,1.47,0.09
+1017,Amsterdam,car,8.96,2.06
+1044,Den Haag,public,10.56,2.01
+1009,Den Haag,public,14.11,2.68
+1010,Rotterdam,public,1.54,2.0
+1028,Utrecht,public,24.14,4.59
+1017,Amsterdam,car,0.96,0.22
+1042,Rotterdam,public,11.34,2.15
+1015,Rotterdam,public,20.84,3.96
+1013,Utrecht,public,23.23,4.41
+1006,Amsterdam,bike,2.61,0.16
+1025,Den Haag,public,6.14,2.0
+1042,Rotterdam,public,21.31,4.05
+1007,Utrecht,public,15.83,3.01
+1021,Rotterdam,public,28.41,5.4
+1006,Amsterdam,bike,2.67,0.16
+1015,Rotterdam,public,20.51,3.9
+1003,Rotterdam,public,15.0,2.85
+1026,Amsterdam,car,8.39,1.93
+1030,Den Haag,public,19.94,3.79
+1016,Den Haag,car,10.62,2.44
+1030,Den Haag,public,19.67,3.74
+1035,Utrecht,public,22.77,4.33
+1013,Utrecht,public,23.28,4.42
+1048,Den Haag,public,29.7,5.64
+1014,Rotterdam,public,22.63,4.3
+1025,Den Haag,public,6.1,2.0
+1034,Den Haag,public,24.92,4.73
+1002,Den Haag,public,24.23,4.6
+1040,Den Haag,public,20.81,3.95
+1038,Rotterdam,public,16.25,3.09
+1041,Utrecht,bike,32.96,1.98
+1010,Rotterdam,bike,1.3,0.08
+1036,Utrecht,public,29.3,5.57
+1019,Amsterdam,public,5.66,2.0
+1034,Den Haag,public,24.8,4.71
+1046,Utrecht,public,19.27,3.66
+1047,Den Haag,public,26.33,5.0
+1045,Amsterdam,car,4.09,0.94
+1021,Rotterdam,public,16.69,3.17
+1022,Utrecht,car,16.07,3.7
+1037,Utrecht,public,22.01,4.18
+1038,Rotterdam,bike,16.44,0.99
+1009,Den Haag,public,14.08,2.68
+1046,Utrecht,public,19.45,3.7
+1028,Utrecht,public,24.16,4.59
+1030,Den Haag,public,19.77,3.76
+1015,Rotterdam,public,20.6,3.91
+1005,Amsterdam,car,5.05,1.16
+1014,Rotterdam,public,22.33,4.24
+1023,Den Haag,public,15.93,3.03
+1009,Den Haag,bike,14.32,0.86
+1047,Den Haag,public,26.19,4.98
+1047,Den Haag,public,26.14,4.97
+1025,Den Haag,public,5.82,2.0
+1044,Den Haag,public,24.33,4.62
+1029,Utrecht,public,15.35,2.92
+1014,Rotterdam,public,22.51,4.28
+1019,Amsterdam,bike,6.07,0.36
+1020,Utrecht,bike,4.03,0.24
+1022,Utrecht,public,12.02,2.28
+1018,Utrecht,public,15.81,3.0
+1028,Utrecht,public,23.9,4.54
+1026,Amsterdam,car,8.14,1.87
+1002,Den Haag,bike,24.13,1.45
+1045,Amsterdam,car,10.32,2.37
+1032,Utrecht,bike,11.2,0.67
+1021,Rotterdam,public,28.46,5.41
+1010,Rotterdam,bike,1.44,0.09
+1046,Utrecht,public,16.2,3.08
+1017,Amsterdam,car,9.11,2.1
+1044,Den Haag,public,10.49,1.99
+1033,Utrecht,public,27.45,5.22
+1011,Den Haag,public,16.44,3.12
+1032,Utrecht,bike,10.73,0.64
+1005,Amsterdam,bike,4.72,0.28
+1017,Amsterdam,public,0.95,2.0
+1001,Rotterdam,bike,12.2,0.73
+1006,Amsterdam,public,2.79,2.0
+1013,Utrecht,public,23.59,4.48
+1019,Amsterdam,public,6.06,2.0
+1024,Den Haag,public,19.89,3.78
+1032,Utrecht,bike,10.85,0.65
+1022,Utrecht,public,15.91,3.02
+1003,Rotterdam,public,9.51,2.0
+1034,Den Haag,public,24.79,4.71
+1037,Utrecht,public,21.87,4.16
+1026,Amsterdam,car,8.25,1.9
+1030,Den Haag,public,20.17,3.83
+1038,Rotterdam,public,16.12,3.06
+1025,Den Haag,public,6.18,2.0
+1010,Rotterdam,bike,1.66,0.1
+1025,Den Haag,public,6.4,2.0
+1041,Utrecht,bike,13.39,0.8
+1004,Utrecht,car,9.46,2.18
+1009,Den Haag,public,14.07,2.67
+1039,Den Haag,public,27.74,5.27
+1025,Den Haag,public,5.95,2.0
+1015,Rotterdam,car,20.88,4.8
+1033,Utrecht,public,27.69,5.26
+1030,Den Haag,car,19.8,4.55
+1034,Den Haag,car,24.91,5.73
+1030,Den Haag,public,20.2,3.84
+1005,Amsterdam,bike,5.07,0.3
+1015,Rotterdam,public,20.67,3.93
+1028,Utrecht,public,24.27,4.61
+1028,Utrecht,public,24.03,4.57
+1033,Utrecht,public,27.52,5.23
+1027,Utrecht,car,11.0,2.53
+1013,Utrecht,public,23.39,4.44
+1046,Utrecht,bike,16.16,0.97
+1042,Rotterdam,public,11.21,2.13
+1039,Den Haag,public,27.48,5.22
+1023,Den Haag,public,15.79,3.0
+1034,Den Haag,public,23.31,4.43
+1045,Amsterdam,car,3.83,0.88
+1034,Den Haag,public,23.41,4.45
+1026,Amsterdam,car,8.14,1.87
+1009,Den Haag,public,14.55,2.76
+1030,Den Haag,public,20.1,3.82
+1001,Rotterdam,bike,11.5,0.69
+1035,Utrecht,public,22.76,4.32
+1004,Utrecht,public,9.54,2.0
+1035,Utrecht,public,22.91,4.35
+1046,Utrecht,public,19.11,3.63
+1041,Utrecht,bike,23.63,1.42
+1020,Utrecht,bike,3.88,0.23
+1002,Den Haag,public,24.65,4.68
+1027,Utrecht,car,10.97,2.52
+1042,Rotterdam,public,11.3,2.15
+1040,Den Haag,bike,20.5,1.23
+1015,Rotterdam,public,20.95,3.98
+1015,Rotterdam,public,20.6,3.91
+1045,Amsterdam,car,3.96,0.91
+1047,Den Haag,public,25.49,4.84
+1009,Den Haag,public,14.63,2.78
+1040,Den Haag,public,22.61,4.3
+1008,Den Haag,car,14.26,3.28
+1021,Rotterdam,public,27.89,5.3
+1015,Rotterdam,public,20.48,3.89
+1039,Den Haag,public,27.92,5.3
+1026,Amsterdam,car,8.42,1.94
+1023,Den Haag,public,21.97,4.17
+1045,Amsterdam,car,10.18,2.34
+1010,Rotterdam,bike,1.68,0.1
+1015,Rotterdam,public,20.98,3.99
+1023,Den Haag,public,15.95,3.03
+1042,Rotterdam,bike,11.45,0.69
+1013,Utrecht,public,23.49,4.46
+1003,Rotterdam,public,15.47,2.94
+1035,Utrecht,public,22.74,4.32
+1045,Amsterdam,car,3.78,0.87
+1023,Den Haag,car,22.16,5.1
+1043,Rotterdam,public,23.71,4.5
+1023,Den Haag,public,16.15,3.07
+1030,Den Haag,public,20.0,3.8
+1021,Rotterdam,public,16.49,3.13
+1015,Rotterdam,public,20.55,3.9
+1002,Den Haag,public,24.31,4.62
+1033,Utrecht,public,27.42,5.21
+1015,Rotterdam,public,21.02,3.99
+1015,Rotterdam,public,20.85,3.96
+1044,Den Haag,public,10.6,2.01
+1038,Rotterdam,public,16.27,3.09
+1025,Den Haag,public,5.8,2.0
+1026,Amsterdam,car,8.46,1.95
+1021,Rotterdam,public,16.28,3.09
+1014,Rotterdam,public,22.68,4.31
+1047,Den Haag,public,25.2,4.79
+1032,Utrecht,bike,10.67,0.64
+1030,Den Haag,public,20.13,3.82
+1046,Utrecht,bike,19.16,1.15
+1040,Den Haag,public,20.5,3.9
+1029,Utrecht,public,17.77,3.38
+1046,Utrecht,public,19.26,3.66
+1018,Utrecht,public,25.35,4.82
+1014,Rotterdam,public,22.29,4.24
+1013,Utrecht,public,23.71,4.5
+1005,Amsterdam,bike,5.17,0.31
+1008,Den Haag,car,14.17,3.26
+1042,Rotterdam,public,21.28,4.04
+1045,Amsterdam,car,22.91,5.27
+1003,Rotterdam,public,14.96,2.84
+1039,Den Haag,public,27.84,5.29
+1041,Utrecht,bike,13.33,0.8
+1030,Den Haag,public,19.95,3.79
+1039,Den Haag,public,27.61,5.25
+1007,Utrecht,public,15.62,2.97
+1006,Amsterdam,bike,2.57,0.15
+1004,Utrecht,car,9.61,2.21
+1008,Den Haag,car,14.1,3.24
+1007,Utrecht,public,15.73,2.99
+1042,Rotterdam,car,11.46,2.64
+1019,Amsterdam,public,6.09,2.0
+1003,Rotterdam,public,15.02,2.85
+1005,Amsterdam,bike,4.69,0.28
+1045,Amsterdam,car,3.75,0.86
+1011,Den Haag,public,16.21,3.08
+1033,Utrecht,public,27.59,5.24
+1041,Utrecht,bike,13.48,0.81
+1014,Rotterdam,public,22.55,4.28
+1033,Utrecht,public,27.44,5.21
+1038,Rotterdam,public,16.28,3.09
+1039,Den Haag,public,27.78,5.28
+1006,Amsterdam,bike,2.79,0.17
+1025,Den Haag,public,6.19,2.0
+1043,Rotterdam,public,23.87,4.54
+1008,Den Haag,car,14.02,3.22
+1007,Utrecht,public,15.35,2.92
+1032,Utrecht,bike,10.8,0.65
+1045,Amsterdam,car,10.03,2.31
+1003,Rotterdam,public,9.34,2.0
+1027,Utrecht,car,16.86,3.88
+1023,Den Haag,public,22.02,4.18
+1038,Rotterdam,car,16.21,3.73
+1033,Utrecht,public,27.7,5.26
+1037,Utrecht,car,22.19,5.1
+1042,Rotterdam,bike,10.97,0.66
+1028,Utrecht,public,23.82,4.53
+1002,Den Haag,public,24.16,4.59
+1003,Rotterdam,public,9.37,2.0
+1047,Den Haag,public,25.58,4.86
+1022,Utrecht,public,12.1,2.3
+1044,Den Haag,public,10.62,2.02
+1016,Den Haag,car,11.89,2.73
+1024,Den Haag,public,19.58,3.72
+1009,Den Haag,public,14.14,2.69
+1014,Rotterdam,car,22.67,5.21
+1024,Den Haag,bike,19.98,1.2
+1018,Utrecht,public,25.16,4.78
+1043,Rotterdam,bike,24.07,1.44
+1022,Utrecht,public,12.2,2.32
+1029,Utrecht,public,15.21,2.89
+1042,Rotterdam,public,11.46,2.18
+1046,Utrecht,public,19.45,3.7
+1019,Amsterdam,public,5.59,2.0
+1018,Utrecht,public,15.71,2.98
+1014,Rotterdam,public,22.3,4.24
+1017,Amsterdam,car,22.42,5.16
+1003,Rotterdam,bike,9.31,0.56
+1025,Den Haag,public,5.95,2.0
+1045,Amsterdam,car,10.24,2.36
+1026,Amsterdam,bike,8.37,0.5
+1026,Amsterdam,car,8.43,1.94
+1033,Utrecht,public,27.25,5.18
+1023,Den Haag,public,22.04,4.19
+1016,Den Haag,car,11.71,2.69
+1015,Rotterdam,public,20.78,3.95
+1026,Amsterdam,car,8.52,1.96
+1034,Den Haag,public,24.83,4.72
+1047,Den Haag,public,26.18,4.97
+1014,Rotterdam,public,22.66,4.31
+1023,Den Haag,public,22.32,4.24
+1005,Amsterdam,bike,5.08,0.3
+1040,Den Haag,public,20.63,3.92
+1038,Rotterdam,public,16.53,3.14
+1002,Den Haag,public,24.48,4.65
+1048,Den Haag,public,29.91,5.68
+1035,Utrecht,public,22.87,4.35
+1018,Utrecht,public,15.88,3.02
+1033,Utrecht,public,27.66,5.26
+1021,Rotterdam,car,28.05,6.45
+1027,Utrecht,car,10.88,2.5
+1034,Den Haag,public,25.23,4.79
+1003,Rotterdam,public,9.84,2.0
+1003,Rotterdam,public,9.36,2.0
+1035,Utrecht,public,22.96,4.36
+1025,Den Haag,public,5.8,2.0
+1001,Rotterdam,bike,12.2,0.73
+1009,Den Haag,public,14.43,2.74
+1016,Den Haag,car,11.64,2.68
+1030,Den Haag,public,19.72,3.75
+1039,Den Haag,public,27.58,5.24
+1014,Rotterdam,public,22.75,4.32
+1043,Rotterdam,public,24.2,4.6
+1032,Utrecht,car,10.83,2.49
+1043,Rotterdam,bike,24.1,1.45
+1035,Utrecht,public,23.07,4.38
+1043,Rotterdam,car,23.97,5.51
+1012,Den Haag,bike,3.14,0.19
+1003,Rotterdam,public,9.63,2.0
+1048,Den Haag,public,29.96,5.69
+1036,Utrecht,public,29.37,5.58
+1020,Utrecht,bike,4.15,0.25
+1036,Utrecht,public,29.44,5.59
+1010,Rotterdam,bike,1.71,0.1
+1017,Amsterdam,car,8.72,2.01
+1042,Rotterdam,public,21.01,3.99
+1015,Rotterdam,public,20.72,3.94
+1009,Den Haag,public,14.14,2.69
+1013,Utrecht,public,23.68,4.5
+1004,Utrecht,car,9.38,2.16
+1044,Den Haag,public,10.52,2.0
+1021,Rotterdam,public,16.39,3.11
+1044,Den Haag,public,10.42,1.98
+1019,Amsterdam,public,5.86,2.0
+1040,Den Haag,public,49.61,9.43
+1017,Amsterdam,bike,9.02,0.54
+1019,Amsterdam,car,6.04,1.39
+1009,Den Haag,public,14.29,2.72
+1035,Utrecht,public,23.24,4.42
+1018,Utrecht,public,25.45,4.84
+1022,Utrecht,public,15.72,2.99
+1026,Amsterdam,car,8.62,1.98
+1037,Utrecht,public,22.0,4.18
+1046,Utrecht,public,19.26,3.66
+1040,Den Haag,public,20.73,3.94
+1018,Utrecht,public,25.18,4.78
+1042,Rotterdam,public,11.26,2.14
+1041,Utrecht,car,13.43,3.09
+1010,Rotterdam,bike,1.71,0.1
+1024,Den Haag,public,19.51,3.71
+1032,Utrecht,bike,23.24,1.39
+1030,Den Haag,public,20.23,3.84
+1023,Den Haag,public,22.36,4.25
+1025,Den Haag,public,6.21,2.0
+1020,Utrecht,bike,3.83,0.23
+1003,Rotterdam,public,15.21,2.89
+1020,Utrecht,bike,3.68,0.22
+1028,Utrecht,public,23.87,4.54
+1014,Rotterdam,public,22.36,4.25
+1036,Utrecht,car,29.38,6.76
+1013,Utrecht,public,23.3,4.43
+1002,Den Haag,public,24.5,4.66
+1028,Utrecht,public,23.89,4.54
+1021,Rotterdam,car,16.7,3.84
+1007,Utrecht,public,15.72,2.99
+1023,Den Haag,car,21.94,5.05
+1031,Amsterdam,bike,12.62,0.76
+1009,Den Haag,public,14.05,2.67
+1026,Amsterdam,car,8.5,1.96
+1004,Utrecht,car,9.37,2.16
+1021,Rotterdam,bike,28.13,1.69
+1018,Utrecht,public,15.66,2.98
+1002,Den Haag,public,24.12,4.58
+1044,Den Haag,public,12.17,2.31
+1007,Utrecht,public,33.32,6.33
+1045,Amsterdam,car,9.87,2.27
+1012,Den Haag,bike,3.27,0.2
+1018,Utrecht,public,15.86,3.01
+1034,Den Haag,public,23.39,4.44
+1025,Den Haag,car,6.21,1.43
+1029,Utrecht,public,17.7,3.36
+1031,Amsterdam,car,12.41,2.85
+1031,Amsterdam,car,12.5,2.88
+1026,Amsterdam,car,19.95,4.59
+1044,Den Haag,public,10.37,1.97
+1038,Rotterdam,car,16.36,3.76
+1005,Amsterdam,bike,5.05,0.3
+1025,Den Haag,public,6.31,2.0
+1029,Utrecht,public,15.31,2.91
+1024,Den Haag,public,19.52,3.71
+1019,Amsterdam,car,5.95,1.37
+1017,Amsterdam,car,0.92,0.21
+1017,Amsterdam,car,8.82,2.03
+1011,Den Haag,public,16.5,3.14
+1044,Den Haag,public,10.3,1.96
+1015,Rotterdam,car,20.54,4.72
+1044,Den Haag,public,10.63,2.02
+1038,Rotterdam,car,16.62,3.82
+1007,Utrecht,public,15.62,2.97
+1019,Amsterdam,public,6.07,2.0
+1032,Utrecht,bike,10.69,0.64
+1034,Den Haag,public,23.18,4.4
+1014,Rotterdam,public,22.6,4.29
+1007,Utrecht,public,15.54,2.95
+1017,Amsterdam,car,1.01,0.23
+1001,Rotterdam,bike,11.47,0.69
+1014,Rotterdam,public,22.19,4.22
+1019,Amsterdam,public,5.87,2.0
+1023,Den Haag,public,22.09,4.2
+1018,Utrecht,public,25.02,4.75
+1026,Amsterdam,bike,8.53,0.51
+1037,Utrecht,bike,22.41,1.34
+1010,Rotterdam,bike,1.77,0.11
+1034,Den Haag,public,25.28,4.8
+1012,Den Haag,bike,3.52,0.21
+1048,Den Haag,public,30.0,5.7
+1007,Utrecht,public,15.26,2.9
+1027,Utrecht,bike,10.89,0.65
+1024,Den Haag,public,19.54,3.71
+1023,Den Haag,public,15.7,2.98
+1006,Amsterdam,bike,2.75,0.16
+1017,Amsterdam,car,8.86,2.04
+1029,Utrecht,public,14.99,2.85
+1014,Rotterdam,public,22.38,4.25
+1017,Amsterdam,car,8.7,2.0
